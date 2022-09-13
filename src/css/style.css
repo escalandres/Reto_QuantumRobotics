@@ -37,9 +37,10 @@ body{
 .sidebar{
     width: 23%;
     height: 870px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background: var(--dt-darkest);
     color: var(--white);
+    float: left;
 }
 
 .img__container{
@@ -114,7 +115,7 @@ body{
 }
 
 .down__container{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     height: 10%;
 }
 
@@ -132,4 +133,24 @@ body{
 
 .content{
     float: right;
+    background: var(--body-bg-dark);
+    width: 77%;
+    height: 870px;
+    padding: 15px;
+}
+
+.content__container{
+    background: var(--dt-darkest);
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+
+.type-searching__input{
+    width: 35%;
+    height: 35px;
+    background-color: var(--body-bg-dark);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
 }
