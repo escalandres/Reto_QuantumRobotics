@@ -23,6 +23,11 @@ body{
     margin: 5px 5px;
 }
 
+.sidebar__h1{
+    font-size: 30px;
+    margin: 10px;
+}
+
 .subline{
     width: 90%;
     border: 1px solid gray;
