@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+
+
+.sidebar{
+    width: 30%;
+    height: 100%;
+    border: 5px solid black;
+}
+
+.subline{
+    width: 90%;
+    border: 1px solid black;
+}
