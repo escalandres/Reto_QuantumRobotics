@@ -15,7 +15,16 @@ body{
     border: 5px solid black;
 }
 
+.img__container{
+    float: left;
+}
+
+.rover__img{
+    margin: 5px 5px;
+}
+
 .subline{
     width: 90%;
-    border: 1px solid black;
+    border: 1px solid gray;
+    margin: 10px 5px;
 }
