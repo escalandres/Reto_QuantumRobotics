@@ -23,7 +23,9 @@ const Antracita = {
     description: 'Carbón de color negro y brillante, con un contenido mayor al 95 % de carbono.'
 }
 
-const ignous = [Andesita, Anortosita]
+const ignous = [Andesita, Anortosita];
+const metamorphics = [Anfibolita];
+const sedimentary = [Antracita];
 
 function addElement(name, type, description) {
   // crea un nuevo div
@@ -46,19 +48,19 @@ function searching(){
     const typeSearching = document.getElementById("type-searching").value;
     alert(typeSearching)
     if(typeSearching==="ignous"){
-        alert(ignous.length)
         for(i=0;i<ignous.length;i++){
             addElement(ignous[i].name, ignous[i].type, ignous[i].description);
-
         }
     }
-    else if(typeSearching==="metamorphics"){
-
+    else if(typeSearching==="metamorphic"){
+        for(i=0;i<metamorphics.length;i++){
+            addElement(metamorphics[i].name, metamorphics[i].type, metamorphics[i].description);
+        }
     }
-    else{
-
+    else if(typeSearching==="sedimentary"){ //sedimentary
+        for(i=0;i<sedimentary.length;i++){
+            addElement(sedimentary[i].name, sedimentary[i].type,sedimentary[i].description);
+        }
     }
-    
-    addElement(Andesita.name, Andesita.type, Andesita.description);
 }
 
