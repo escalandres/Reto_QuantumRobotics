@@ -36,7 +36,7 @@ body{
 
 .sidebar{
     width: 23%;
-    height:900px;
+    height: 870px;
     border: 1px solid black;
     background: var(--dt-darkest);
     color: var(--white);
@@ -64,9 +64,9 @@ body{
 
 .middle__container{
     border: 1px solid white;
-    height: 80%;
+    height: 50%;
     margin: 15px;
-    padding: 15px;
+    padding: 10px;
 }
 
 .sidebar__icons{
@@ -88,7 +88,7 @@ body{
     /* border: 1px solid white; */
     padding: 15px 2px 15px;
     height: 60px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .sidebar__menu-btn:hover{
@@ -110,4 +110,26 @@ body{
     float: left;
     margin-left: 20px;
     font-size: 22px;
+    
+}
+
+.down__container{
+    border: 1px solid white;
+    height: 10%;
+}
+
+.down__container__btn{
+    padding: 5px 25px;
+}
+
+.upline{
+    width: 88%;
+    border: 1px solid var(--body-bg);
+    margin: 25px 5px 15px 15px;
+}
+
+
+
+.content{
+    float: right;
 }
