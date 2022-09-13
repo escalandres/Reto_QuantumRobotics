@@ -154,3 +154,17 @@ body{
     font-size: 20px;
     border-radius: 5px;
 }
+
+.rocks__container{
+    border: 1px solid white;
+    height: 60%;
+}
+
+.rocks{
+    width: 700px;
+    height: 200px;
+    border: 1px solid white;
+    transform: translate(40%, -10%);
+    z-index: 1;
+    display: inline;
+}
